@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementsByClassName 2</title>
+</head>
+<body>
+    <p>
+        <strong class="important">Document Object Model</strong>의 줄임말입니다.
+    </p>
+
+    <script>
+        var paras = document.getElementsByTagName("p");
+        var firstParaImportant = paras[0].getElementsByClassName("important");
+        console.log(firstParaImportant);
+    </script>
+</body>
+</html>
