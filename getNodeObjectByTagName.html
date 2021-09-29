@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Node Object By Tag Name</title>
+</head>
+<body>
+    <div id="first">첫 번째</div>
+    <div id="second">두 번째</div>
+    <div id="third">세 번째</div>
+
+    <script>
+        var elements = document.getElementsByTagName("div");
+        elements[2].innerHTML = "여기를 수정함"; // 세 번째 div 요소의 내용을 수정한다
+    </script>
+</body>
+</html>
